@@ -1,0 +1,11 @@
+{
+    "type": "code",
+    "name": "PropickFix",
+    "modid": "propickfix",
+    "description": "Modifies the prospectors pick to be more useful.",
+    "author": "TownEater",
+    "version": "0.0.1",
+    "dependency": {
+      "game": "1.18.15"
+    }
+  }
