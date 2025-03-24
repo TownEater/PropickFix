@@ -10,10 +10,16 @@
 
   <ItemGroup>
     <Reference Include="VintagestoryAPI">
-      <HintPath>lib/VintagestoryAPI.dll</HintPath>
+      <HintPath>./lib/VintagestoryAPI.dll</HintPath>
+      <private>false</private>
     </Reference>
     <Reference Include="VSSurvivalMod">
-      <HintPath>lib/VSSurvivalMod.dll</HintPath>
+      <HintPath>./lib/VSSurvivalMod.dll</HintPath>
+      <private>false</private>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>./lib/VSSurvivalMod.dll</HintPath>
+      <private>false</private>
     </Reference>
   </ItemGroup>
 

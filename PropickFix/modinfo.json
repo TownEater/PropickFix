@@ -4,8 +4,8 @@
     "modid": "propickfix",
     "description": "Modifies the prospectors pick to be more useful.",
     "author": "TownEater",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependency": {
-      "game": "1.18.15"
+      "game": "1.20.6"
     }
   }
