@@ -105,7 +105,8 @@ public class ItemPropickFix : ItemProspectingPick
         }
 
 
-        if (DamagedBy != null && DamagedBy.Contains(EnumItemDamageSource.BlockBreaking))
+        EnumItemDamageSource[] damagedBy = GetDamagedBy(itemslot);
+        if (damagedBy != null && damagedBy.Contains(EnumItemDamageSource.BlockBreaking))
         {
             DamageItem(world, byEntity, itemslot, damage);
         }
